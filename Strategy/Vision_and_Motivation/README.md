@@ -2,6 +2,14 @@
 
 *Foundational statement of purpose — November 2026*
 
+## Could life itself be a traveler?
+
+**Perhaps life did not begin on Earth.** The hypothesis of *panspermia* asks whether life, or its precursors, might have traveled between worlds. In *lithopanspermia*, organisms sheltered within rocks could potentially survive parts of that journey. We do not know whether this happened, and transferring life does not explain its ultimate origin. But the possibility raises a profound question: **if life can spread between worlds, might we be part of that story?**
+
+A flowering plant grows, flourishes, and eventually produces seeds that may take root elsewhere. We use this as a metaphor for a possible stage in life's history: perhaps our role is not only to preserve the living world we inherited, but to investigate whether it could one day **go to seed**—carrying life's potential beyond Earth in rocks, as natural processes may already have done.
+
+This is an invitation to research, not a claim of cosmic destiny or permission to seed another world. Whether such dispersal is possible, beneficial, or ethically acceptable remains open. **Protecting the life already here comes first.**
+
 ## Life is precious. Life is vulnerable. Its survival is not guaranteed.
 
 For billions of years, Earth has sheltered the extraordinary unfolding of biological evolution. It is the only world currently **known** to support life. That makes the continuity of its biosphere a responsibility of exceptional importance.
