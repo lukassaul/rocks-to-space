@@ -36,6 +36,8 @@ A hazard may reach one threshold without reaching the others. The relevant mecha
 
 Long-term solar evolution and the finite duration of Earth's habitability are covered in depth in [Earth's Finite Habitability and the Survival of Life](../Long_Term_Habitability_of_Earth/README.md).
 
+See the [Hazard Research Catalog](Hazard_Catalog/README.md) for candidate topics and the [Hazard Assessment Template](../../Templates/Hazard_Assessment_Template.md) for consistent assessments.
+
 ## A living hazard register, not a prophecy calendar
 
 For each proposed threat, record:
