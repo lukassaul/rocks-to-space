@@ -16,6 +16,14 @@ This is not a rejection of long-term thinking. It is the foundation of responsib
 
 **Protect life now. Preserve its possibilities for the future.**
 
+## The responsibility of capability
+
+**With the power to influence life's future comes the responsibility to consider it.** Rocks2Space explicitly adopts this philosophical position. It is a normative commitment of the initiative, not a conclusion established by science or an obligation imposed on every collaborator.
+
+If humanity can investigate ways for life to survive beyond Earth, we believe it should examine those possibilities seriously. Responsibility also includes knowing when **not** to act: scientific feasibility alone would not justify biological introduction into another environment. Earth's biosphere comes first, and any contemplated intervention must confront possible indigenous life, irreversible ecological effects, applicable legal obligations, and legitimate international governance.
+
+The flowering and *going to seed* metaphor expresses a question about life's future, not a presumption that life arrived here through panspermia or that dispersal is always desirable.
+
 ## The ethical tension: past, present, and future
 
 - **Deep past — inheritance:** Earth's living diversity carries an evolutionary history that cannot simply be recreated once lost.
