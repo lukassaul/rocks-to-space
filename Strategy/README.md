@@ -2,6 +2,8 @@
 
 *Initial strategic overview — November 2026*
 
+**Founding motivation:** [The Survival of Life](Vision_and_Motivation/README.md) explains why the continuity of Earth's biosphere is an urgent responsibility and why Rocks2Space investigates life's survival beyond Earth. The scientific background is developed in [Earth's Finite Habitability and the Survival of Life](../Foundations/Long_Term_Habitability_of_Earth/README.md).
+
 ## 1. An invitation to researchers
 
 Rocks2Space is a long-term interdisciplinary initiative investigating the survival, transport, and potential dissemination of life beyond Earth. Its questions connect astrobiology, **geology and lithopanspermia**, microbiology, genomics, evolutionary biology, physics, spacecraft engineering, computer science, ecology, and social science.
