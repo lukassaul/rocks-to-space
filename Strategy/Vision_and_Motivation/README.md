@@ -10,6 +10,16 @@ A flowering plant grows, flourishes, and eventually produces seeds that may take
 
 This is an invitation to research, not a claim of cosmic destiny or permission to seed another world. Whether such dispersal is possible, beneficial, or ethically acceptable remains open. **Protecting the life already here comes first.**
 
+## The responsibility of capability: our philosophical position
+
+**With the power to influence life's future comes the responsibility to consider it.** Rocks2Space chooses this as a founding philosophical commitment.
+
+Humanity may be the first life on Earth capable of deliberately investigating whether biological life can endure beyond its home world. If that capacity exists, we believe it creates a responsibility to ask what is possible, wise, and right—not an automatic duty to release organisms into space.
+
+Perhaps life arrived here from elsewhere; perhaps Earth is one flowering in a longer history of dispersal. These remain hypotheses and metaphors, not established facts. But we choose to investigate whether life could someday **go to seed**, with life's potential protected in rocks and carried beyond Earth.
+
+**Our responsibility is not simply to send life into space. It is to determine whether and how doing so could responsibly serve life's continuity.** That means protecting the living Earth first, respecting the possibility of independent extraterrestrial life, and accepting scientific, ecological, legal, and ethical limits. This philosophical commitment does not require collaborators to endorse directed panspermia.
+
 ## Life is precious. Life is vulnerable. Its survival is not guaranteed.
 
 For billions of years, Earth has sheltered the extraordinary unfolding of biological evolution. It is the only world currently **known** to support life. That makes the continuity of its biosphere a responsibility of exceptional importance.
