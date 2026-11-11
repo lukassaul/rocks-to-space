@@ -14,7 +14,7 @@ This is an invitation to research, not a claim of cosmic destiny or permission t
 
 **With the power to influence life's future comes the responsibility to consider it.** Rocks2Space chooses this as a founding philosophical commitment.
 
-Humanity may be the first life on Earth capable of deliberately investigating whether biological life can endure beyond its home world. If that capacity exists, we believe it creates a responsibility to ask what is possible, wise, and right—not an automatic duty to release organisms into space.
+Humanity may be the first life on Earth capable of deliberately investigating whether biological life can endure beyond its home world. If that capacity exists, we believe it creates a responsibility to ask what is possible, wise, and right.
 
 Perhaps life arrived here from elsewhere; perhaps Earth is one flowering in a longer history of dispersal. These remain hypotheses and metaphors, not established facts. But we choose to investigate whether life could someday **go to seed**, with life's potential protected in rocks and carried beyond Earth.
 
