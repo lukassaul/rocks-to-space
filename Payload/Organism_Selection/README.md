@@ -120,7 +120,17 @@ The history suggests several broad directions for the **Payload** branch:
 
 The selection or intentional delivery of organisms also raises planetary-protection and governance questions. Technical feasibility would not by itself justify dissemination into an environment that might host indigenous life.
 
-## 11. Conclusion
+## 11. Connections to Delivery Technology and Dual Benefits
+
+Biological survivability is only one component of an end-to-end mission. The complementary [Delivery architecture overview](../../Delivery/README.md) compares natural ejecta, engineered dispersal, rideshare or piggyback payloads, precise Jupiter-assisted trajectories, and autonomous spacecraft.
+
+Research into **propulsion, precision drives and microthrusters, trajectory estimation, autonomous navigation, long-lived electronics, and standardized small spacecraft** could generate major terrestrial and near-Earth productivity benefits, independently of any future biological delivery. Examples include cheaper satellite maneuvering, improved collision avoidance, more reliable robotic exploration, and reduced mission-operations costs.
+
+For statistical dispersal, the Delivery overview proposes measuring the **incremental total viable-material tail**—the distribution of outbound potentially viable material—rather than treating each individual rock as a mission that must independently succeed. The biological work here supplies the survival fractions and uncertainty ranges needed for such a benchmark. Outbound viable material is not evidence of successful capture or establishment.
+
+Biological experiments and launch integration must remain consistent with planetary-protection obligations. Nonbiological analogues can support early delivery-technology demonstrations.
+
+## 12. Conclusion
 
 Extremophile research has expanded the known limits of life, from bacterial spores and thermophiles to radiation-resistant bacteria, fungi, and tardigrades. Space experiments have demonstrated survival for some organisms over months or years under specific conditions.
 
