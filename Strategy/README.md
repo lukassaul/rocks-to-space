@@ -4,6 +4,12 @@
 
 **Founding motivation:** [The Survival of Life](Vision_and_Motivation/README.md) explains why the continuity of Earth's biosphere is an urgent responsibility and why Rocks2Space investigates life's survival beyond Earth. The scientific background is developed in [Earth's Finite Habitability and the Survival of Life](../Foundations/Long_Term_Habitability_of_Earth/README.md).
 
+## Our chosen philosophical commitment
+
+**The responsibility of capability:** with the power to influence life's future comes the responsibility to consider it. Rocks2Space explicitly adopts this position. The possibility of panspermia—and the metaphor of life flowering, then going to seed—motivates us to investigate whether life's continuity beyond Earth could be supported responsibly.
+
+This is a **project value**, not a demonstrated scientific finding or a condition of participation. Researchers may reject the metaphor or the long-term aspiration while contributing independent evidence and critique. Our commitment requires restraint as well as ambition: Earth-first stewardship, planetary protection, and legitimate governance come before any deployment. See [Vision and Motivation](Vision_and_Motivation/README.md).
+
 ## 1. An invitation to researchers
 
 Rocks2Space is a long-term interdisciplinary initiative investigating the survival, transport, and potential dissemination of life beyond Earth. Its questions connect astrobiology, **geology and lithopanspermia**, microbiology, genomics, evolutionary biology, physics, spacecraft engineering, computer science, ecology, and social science.
