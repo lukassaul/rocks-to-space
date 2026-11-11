@@ -8,6 +8,14 @@ Rocks2Space is a long-term research initiative investigating scientific, technol
 
 The ultimate objective is extraordinarily distant in time. Our immediate objective is to organize rigorous research that helps evaluate the feasibility, consequences, and ethics of directed panspermia while improving life on Earth.
 
+## Founding philosophy: the responsibility of capability
+
+**With the power to influence life's future comes the responsibility to consider it.** Rocks2Space adopts this as an explicit philosophical commitment, not as a scientific conclusion or a duty that all researchers must share.
+
+Panspermia raises the possibility that life may have traveled between worlds before reaching Earth. That history is unproven. Our *flowering* metaphor asks whether, at a stage when humanity can study such journeys deliberately, we should investigate how life might one day **go to seed** beyond Earth. The commitment is to responsible inquiry—not an automatic obligation or authorization to spread organisms.
+
+Protecting Earth's living biosphere comes first. Any future dissemination would require evidence, planetary protection, ethical scrutiny, and legitimate governance. See [Vision and Motivation](Strategy/Vision_and_Motivation/README.md) and [Ethics and Planetary Protection](Foundations/Ethics_and_Planetary_Protection/README.md).
+
 ## Guiding principle: benefits along the way
 
 Every stage of the research program should be evaluated for credible near-term benefits to society, including scientific discovery, useful technologies, commercial opportunities, new businesses, employment, education, and economic development.
