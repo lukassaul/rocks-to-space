@@ -10,6 +10,8 @@ Rocks2Space's Foundations branch brings together the scientific, philosophical, 
 
 **Life is vulnerable → intelligence makes deliberate protection possible → that capacity creates responsibility.** Each transition is a question to examine, not a predetermined conclusion.
 
+The [Hazard Research Catalog](Existential_Risks_and_Life_Survival/Hazard_Catalog/README.md) and [reusable assessment template](../Templates/Hazard_Assessment_Template.md) support evidence-based investigation and interdisciplinary outreach.
+
 ## Other foundational areas
 
 - [Earth's Finite Habitability and the Survival of Life](Long_Term_Habitability_of_Earth/README.md)
