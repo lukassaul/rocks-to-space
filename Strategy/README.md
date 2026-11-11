@@ -12,6 +12,18 @@ The eventual deliberate dissemination of life is speculative and subject to prof
 
 **The initiative's purpose is to help researchers advance their own fields by connecting them to complementary expertise, productive questions, shared resources, new funding mechanisms, and an engaging long-term scientific challenge.** Its [Impact overview](../Impact/README.md) explains the dual-benefit principle: research should produce independently valuable near-term outcomes even if the distant vision never materializes.
 
+## Research focus: lead, collaborate, support
+
+**Rocks2Space focuses on why, whether, and how life-bearing rocks might travel through space, survive the journey, and contribute to life's long-term continuity.** We prioritize research that directly tests the feasibility, consequences, and ethics of that mission.
+
+We distinguish three relationships to research:
+
+- **Lead — core research:** Questions directly concerning lithopanspermia, biological survival and protection within rocks, ejection and transport, arrival and possible establishment, and the ethical limits of intentional dispersal.
+- **Collaborate — enabling research:** Work that constrains or strengthens those questions, such as exoplanet environments, stellar conditions, impact science, or ecological compatibility. We seek partnerships where the connection is concrete.
+- **Support — adjacent research:** Valuable science with an indirect connection to our mission. We can share findings, connect researchers, amplify opportunities, and help articulate broader relevance without duplicating or redirecting their work.
+
+**We do not need to pursue every scientific question ourselves. We should help relevant discoveries advance while keeping our own agenda focused.** Researchers need not endorse directed panspermia to participate. Across all three levels, we favor rigorous, independently valuable near-term outcomes and uphold stewardship of Earth and planetary protection.
+
 ## 2. What researchers could gain
 
 Rocks2Space aims to provide new interdisciplinary questions; potential collaborators; shared literature, data, and simulations; routes to grants and philanthropic support; technical challenges and prizes; conferences and workshops; student participation; and public engagement opportunities. These are **capabilities to develop**, not services already established.
