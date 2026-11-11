@@ -25,7 +25,7 @@ Potential spin-offs are hypotheses to investigate, not guaranteed outcomes. Rese
 
 Four cross-cutting areas support these branches:
 
-- **Foundations:** Panspermia literature, history, origin-of-life research, astrobiology, and ethical context.
+- **[Foundations](Foundations/README.md):** Panspermia literature, history, origin-of-life research, astrobiology, existential risks, Gaia and humanity's role, and ethics and planetary protection.
 - **Strategy:** Vision, roadmaps, funding, collaboration, and governance.
 - **Impact:** Societal benefits, technological spin-offs, commercialization, and workforce development.
 - **Templates:** Reusable literature-review, research-proposal, and grant-proposal formats.
@@ -42,6 +42,12 @@ Each level of the research tree can collect papers, develop syntheses, and suppo
 6. Revisit priorities as evidence and ethical understanding evolve.
 
 Store each source in its primary intellectual home and reference it from other branches rather than duplicating it.
+
+## Stewardship across time
+
+**We are responsible to life across time: its deep past, its living present, and its distant future. We seek to consider all three, prioritizing the protection of life today while preserving its possibilities for tomorrow.**
+
+See the [Ethics and Planetary Protection framework](Foundations/Ethics_and_Planetary_Protection/README.md).
 
 ## Scientific responsibility
 
