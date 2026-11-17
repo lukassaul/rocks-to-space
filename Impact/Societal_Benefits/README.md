@@ -6,6 +6,10 @@
 
 Evaluate educational, scientific, and cooperative benefits that can arise even if transporting life beyond Earth is never feasible or appropriate.
 
+## Featured research
+
+- [Soil as a Living Planetary System: The State of Soil Science and the Case for Preserving Earth's Soils](Soil_Science_and_Earth_Stewardship/README.md) — literature-based review of soil formation, biology, carbon, water, degradation, restoration, monitoring, and Earth-first outreach.
+
 ## Questions to investigate
 
 Can the project improve public understanding of planetary protection, risk, ecology, and scientific uncertainty? How might international collaboration be evaluated fairly?
