@@ -151,19 +151,10 @@ for \(a\) in meters. The *inventory divided by constant initial sublimation rate
 
 | Rock radius | Initial water inventory | At 100 K | At 120 K | At 150 K |
 | --- | ---: | ---: | ---: | ---: |
-| 1 cm | 0.126 kg | ~1.6 billion yr | ~75,000 yr | ~3.4 yr |
-| 10 cm | 126 kg | ~16 billion yr | ~750,000 yr | ~34 yr |
-| 1 m | 1.26 × 10^6 kg | ~157 billion yr | ~7.5 million yr | ~342 yr |
-| 10 m | 1.26 × 10^9 kg | ~1.57 trillion yr | ~75 million yr | ~3,420 yr |
-
-**Correction to interpretation:** the water inventory scales with rock volume and can be far larger than one might intuitively expect. A 1 m-radius sphere at 3000 kg/m^3 weighs ~12,600 kg, so its 10% water inventory is **~1,260 kg**, not 1.26 million kg. Likewise a 10 cm sphere contains ~1.26 kg water, and a 10 m sphere ~1.26 million kg water. The table's depletion times use the **correct** mass-per-area relation \(100a\) kg/m^2, independent of these illustrative inventory labels. See the corrected table immediately below.
-
-| Radius | Correct bulk rock mass | Correct water mass at 10% |
-| --- | ---: | ---: |
-| 1 cm | 0.0126 kg | 0.00126 kg |
-| 10 cm | 12.6 kg | 1.26 kg |
-| 1 m | 12,600 kg | 1,260 kg |
-| 10 m | 12.6 million kg | 1.26 million kg |
+| 1 cm | 0.00126 kg | ~1.6 billion yr | ~75,000 yr | ~3.4 yr |
+| 10 cm | 1.26 kg | ~16 billion yr | ~750,000 yr | ~34 yr |
+| 1 m | 1,260 kg | ~157 billion yr | ~7.5 million yr | ~342 yr |
+| 10 m | 1.26 × 10^6 kg | ~1.57 trillion yr | ~75 million yr | ~3,420 yr |
 
 These times are **upper-level bookkeeping comparisons**, not physically accurate drying curves: an exposed ice front retreats, a dry crust forms, temperature and available ice area change, and most water in a mineral-bearing rock is not exposed at the surface. The 100 K and 120 K cases demonstrate the extreme sensitivity to temperature; at 150 K a freely exposed inventory disappears quickly even in large bodies.
 
