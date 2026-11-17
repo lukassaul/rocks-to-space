@@ -116,6 +116,109 @@ Possible environments worth *modeling*, without presuming feasibility:
 
 A hydrated rock at low temperature does not necessarily contain *liquid*, metabolically accessible water. Ice can be radiolyzed, but production of trapped chemicals is not equivalent to sustained microbial metabolism.
 
+## 5A. Water retention over million-year voyages: size, temperature and sealing
+
+**The critical distinction is evaporation versus escape.** Water that evaporates or sublimates into a sealed internal pore remains in the rock; only transport through connected pores, fractures, or a breached shell causes net loss to space. Water retention and biologically accessible *liquid* water are separate requirements.
+
+### 5A.1 Exposed ice: a deliberately pessimistic limiting case
+
+For an exposed water-ice surface in vacuum, the Hertz–Knudsen mass flux (assuming sublimation coefficient 1 and negligible ambient water vapor) is
+
+\[
+j(T)=P_{\rm ice}(T)\sqrt{\frac{M_{\rm H_2O}}{2\pi R_gT}},
+\]
+
+where \(j\) is kg m^-2 s^-1, \(P_{\rm ice}\) is saturation vapor pressure over ice, \(M_{\rm H_2O}=0.018015\) kg/mol and \(R_g=8.314\) J mol^-1 K^-1. For the illustrative values below, use the Murphy–Koop (2005) vapor-pressure fit, which is empirical over a stated temperature range; **80 K is an extreme extrapolation outside its validated range** and should not be treated as a measured prediction.
+
+| Fixed surface temperature | Approximate exposed-ice loss per square meter over 1 Myr |
+| --- | ---: |
+| 80 K (extrapolated) | 2.3 × 10^-10 kg |
+| 100 K (extrapolated) | 6.4 × 10^-4 kg |
+| 120 K | 13.3 kg |
+| 150 K | 2.9 × 10^5 kg |
+
+This is an *integrated constant-temperature free-sublimation flux*, not a measured rate for an actual interstellar rock. The low-temperature fit extrapolations should eventually be replaced by laboratory-constrained vapor-pressure models. In reality, sublimation consumes latent heat and cools the surface; sunlight, cosmic background radiation, internal heating, rotation and changing heliocentric distance determine temperature.
+
+### 5A.2 Rock radius and an illustrative water budget
+
+For a spherical rock with radius \(a\), bulk density \(\rho=3000\) kg/m^3, and initially accessible water mass fraction \(w=0.10\), total water inventory divided by exposed surface area is
+
+\[
+\frac{M_w}{A}=\frac{w\rho a}{3}=100a\quad{\rm kg/m^2}
+\]
+
+for \(a\) in meters. The *inventory divided by constant initial sublimation rate* gives the following **notional depletion times**:
+
+| Rock radius | Initial water inventory | At 100 K | At 120 K | At 150 K |
+| --- | ---: | ---: | ---: | ---: |
+| 1 cm | 0.126 kg | ~1.6 billion yr | ~75,000 yr | ~3.4 yr |
+| 10 cm | 126 kg | ~16 billion yr | ~750,000 yr | ~34 yr |
+| 1 m | 1.26 × 10^6 kg | ~157 billion yr | ~7.5 million yr | ~342 yr |
+| 10 m | 1.26 × 10^9 kg | ~1.57 trillion yr | ~75 million yr | ~3,420 yr |
+
+**Correction to interpretation:** the water inventory scales with rock volume and can be far larger than one might intuitively expect. A 1 m-radius sphere at 3000 kg/m^3 weighs ~12,600 kg, so its 10% water inventory is **~1,260 kg**, not 1.26 million kg. Likewise a 10 cm sphere contains ~1.26 kg water, and a 10 m sphere ~1.26 million kg water. The table's depletion times use the **correct** mass-per-area relation \(100a\) kg/m^2, independent of these illustrative inventory labels. See the corrected table immediately below.
+
+| Radius | Correct bulk rock mass | Correct water mass at 10% |
+| --- | ---: | ---: |
+| 1 cm | 0.0126 kg | 0.00126 kg |
+| 10 cm | 12.6 kg | 1.26 kg |
+| 1 m | 12,600 kg | 1,260 kg |
+| 10 m | 12.6 million kg | 1.26 million kg |
+
+These times are **upper-level bookkeeping comparisons**, not physically accurate drying curves: an exposed ice front retreats, a dry crust forms, temperature and available ice area change, and most water in a mineral-bearing rock is not exposed at the surface. The 100 K and 120 K cases demonstrate the extreme sensitivity to temperature; at 150 K a freely exposed inventory disappears quickly even in large bodies.
+
+### 5A.3 Connected pores: a moving sublimation front
+
+When ice lies beneath a dry porous mantle, the limiting rate may be transport through pore throats rather than surface sublimation. A first approximation uses Fickian diffusion of water vapor:
+
+\[
+\dot M\simeq 4\pi D_{\rm eff}\frac{M_{\rm H_2O}}{R_gT}
+\frac{r_i a}{a-r_i}\left[P_{\rm ice}(T_i)-P_{\rm ext}\right],
+\]
+
+where \(a\) is outer radius, \(r_i\) is the retreating ice-front radius, and \(D_{\rm eff}\) is the effective vapor diffusion coefficient. This is the steady-state spherical-shell solution for constant \(D_{\rm eff}\), constant temperature, and boundary pressures; it is **not** valid as \(r_i\to a\), where the mantle vanishes and the sublimation boundary condition must be used. In vacuum, pore transport may be in the Knudsen regime, requiring pore-size-dependent diffusivity; cracks can dominate the leakage pathway.
+
+A practical model should solve mass and heat transport together, moving the ice front inward and updating pore geometry, pressure, vapor pressure, and the latent-heat sink. **Porosity alone is insufficient:** connectivity, tortuosity, pore radius, sealing minerals, and fracture history determine whether water can escape.
+
+### 5A.4 Sealed inclusions and mineral-bound water
+
+Three distinct inventories should be tracked:
+
+1. **Free or pore ice** — can sublimate if connected to vacuum.
+2. **Sealed fluid or ice inclusions** — potentially retained until fracture, permeability change, or diffusion through the mineral shell.
+3. **Structurally bound water / hydroxyl** — may remain in minerals but is not automatically available for microbial metabolism or water radiolysis in a biologically useful environment.
+
+For a genuinely sealed inclusion, net evaporative mass loss to space is approximately zero until leakage occurs. This does **not** mean the inclusion is liquid, metabolically active, or immune to radiation chemistry. Internal vapor pressure, freezing expansion, impacts, thermal cycling, and accumulated damage can compromise the seal.
+
+### 5A.5 Thermal constraints and the rock-size trade-off
+
+For a sphere with volumetric radiogenic heating \(q\) W/m^3 and thermal conductivity \(k\), the center-to-surface temperature difference under a steady uniform-heating model is
+
+\[
+\Delta T_{c-s}=\frac{qa^2}{6k}.
+\]
+
+For a 2%-potassium rock with K-40 power ~5 × 10^-11 W/kg and density 3000 kg/m^3, \(q\sim1.5\times10^{-7}\) W/m^3. With \(k=2\) W m^-1 K^-1:
+
+- \(a=0.01\) m: \(\Delta T\sim1.3\times10^{-12}\) K;
+- \(a=0.1\) m: \(\Delta T\sim1.3\times10^{-10}\) K;
+- \(a=1\) m: \(\Delta T\sim1.3\times10^{-8}\) K;
+- \(a=10\) m: \(\Delta T\sim1.3\times10^{-6}\) K.
+
+These negligible internal gradients show that **K-40 in ordinary rocks cannot maintain a warm core at these sizes**. A full calculation must also determine surface equilibrium from absorbed starlight, thermal infrared radiation, background radiation, and any other heat source; the rock does not automatically remain at a chosen 100 K or 120 K for its entire journey.
+
+### 5A.6 What to simulate next
+
+Use radii **1 cm, 10 cm, 1 m, 10 m**, water fractions **1%, 10%**, and a temperature history covering solar-system departure, deep interstellar coast, and stellar-system arrival. Compare:
+- bare ice, porous mantle, fractured rock, sealed mineral inclusions;
+- pore-size and tortuosity distributions; Knudsen versus continuum transport;
+- radiative/conductive heat balance and sublimation cooling;
+- retained water *mass* versus accessible *liquid-water fraction*;
+- radiation-induced chemistry, fracture probability, and mineral hydration changes;
+- 0.1, 1, 10, and 100 Myr voyage durations.
+
+Report water retained, likelihood of containment failure, and biological activity feasibility **separately**. The leading hypothesis is that **cold and sealing may preserve water for a very long time, but the same cold conditions inhibit active repair**. This tension may favor a hybrid dormant/intermittently active architecture only if a defensible intermittent heating mechanism is identified.
+
 ## 6. Closed-system chemistry and ecology
 
 A radiolytic ecosystem must manage:
@@ -176,8 +279,9 @@ Even if interstellar living rocks prove infeasible, the investigation could impr
 - Chivian et al. (2008), *Environmental Genomics Reveals a Single-Species Ecosystem Deep Within Earth*, **Science** 322, 275–278. https://doi.org/10.1126/science.1155495
 - Dzaugis et al. (2016), *A quantitative model of water radiolysis and chemical production rates near radionuclide-containing solids*, **Radiation Physics and Chemistry** (radiolysis modeling; bibliographic details to verify in literature review).
 - IAEA LiveChart of Nuclides, half-lives and decay branches: https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
+- Murphy & Koop (2005), *Review of the vapour pressures of ice and supercooled water for atmospheric applications*, **Quarterly Journal of the Royal Meteorological Society** 131, 1539–1565. https://doi.org/10.1256/qj.04.94
 - NIST Physical Reference Data: https://physics.nist.gov/
 - NASA Astrobiology: https://science.nasa.gov/astrobiology/
 - Related Rocks2Space framework: [The Panspermia Spectrum](../Panspermia_Spectrum/README.md) and [The Sea Turtle Strategy](../../Delivery/Sea_Turtle_Strategy/README.md).
 
-**Status:** conceptual feasibility paper. Isotope power calculations are explicitly illustrative and require decay-branch, energy-deposition, mineral-chemistry, and thermal-model verification before being treated as design inputs.
+**Status:** expanded conceptual feasibility paper with a first-order water-retention and thermal model. Isotope power calculations are explicitly illustrative and require decay-branch, energy-deposition, mineral-chemistry, and thermal-model verification before being treated as design inputs.
