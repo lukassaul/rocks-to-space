@@ -68,8 +68,8 @@ For a realistic velocity distribution and stellar mass function, replace the sin
 
 | Encounter radius R | Geometric probability | With solar-mass gravitational focusing at 10 km/s | Approx. rocks per expected encounter |
 |---|---:|---:|---:|
-| 1 AU | 7.55 x 10^-12 | 1.35 x 10^-9 | 740 million |
-| 10 AU | 7.55 x 10^-10 | 1.41 x 10^-8 | 71 million |
+| 1 AU | 7.55 x 10^-12 | 1.41 x 10^-10 | 7.1 billion |
+| 10 AU | 7.55 x 10^-10 | 2.09 x 10^-9 | 478 million |
 | 100 AU | 7.55 x 10^-8 | 8.89 x 10^-8 | 11 million |
 | 1,000 AU | 7.55 x 10^-6 | 7.69 x 10^-6 | 130,000 |
 
