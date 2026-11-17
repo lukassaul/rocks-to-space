@@ -8,11 +8,11 @@
 
 ## 1. Executive result
 
-For an uncorrected flight of duration \(T\), a small residual transverse velocity error produces \(\Delta r_\perp\approx T\Delta v_\perp\). Over 100,000 Julian years, a 1 mm/s transverse velocity error corresponds to ~21.1 AU of positional drift. To keep the **spacecraft-only** linear miss contribution below 1 AU, residual transverse velocity error must be below ~0.0474 mm/s. At 100 AU, the corresponding tolerance is ~4.74 mm/s.
+For an uncorrected flight of duration \(T\), a small residual transverse velocity error produces \(\Delta r_\perp\approx T\Delta v_\perp\). Over 100,000 Julian years, a 1 mm/s transverse velocity error corresponds to ~0.0211 AU of positional drift. To keep the **spacecraft-only** linear miss contribution below 1 AU, residual transverse velocity error must be below ~47.4 mm/s. At 100 AU, the corresponding tolerance is ~4.74 m/s.
 
-**Correction to avoid a common unit error:** 1 AU / 100,000 years = **0.0474 mm/s**, not 0.0474 m/s. The scaling is \(\Delta v = \Delta r/T\).
+**Correction to avoid a common unit error:** 1 AU / 100,000 years = **0.0474 m/s (47.4 mm/s)**. The scaling is \(\Delta v = \Delta r/T\).
 
-The much larger obstacle may be **predicting the target star's future location**, rather than merely executing a tiny thruster impulse. A target transverse-velocity uncertainty of 1 m/s over 100 kyr corresponds to ~21,100 AU of position uncertainty. This is far wider than a 100 AU encounter radius. These calculations ignore dynamical correlations, gravitational acceleration, and future improved observations, and are intended to expose requirements.
+The much larger obstacle may be **predicting the target star's future location**, rather than merely executing a tiny thruster impulse. A target transverse-velocity uncertainty of 1 m/s over 100 kyr corresponds to ~21.1 AU of position uncertainty. This is smaller than a 100 AU encounter radius, but substantial for a 1–10 AU encounter objective. These calculations ignore dynamical correlations, gravitational acceleration, and future improved observations, and are intended to expose requirements.
 
 A Jupiter flyby can produce a large, controllable change in outbound direction and heliocentric energy; it also **amplifies errors** in the inbound aim point. The mission must therefore be optimized as an end-to-end covariance problem, not as a single burn tolerance.
 
@@ -47,7 +47,7 @@ In Jupiter's instantaneous frame, let incoming hyperbolic excess velocity be \(\
 \delta=2\arctan\left(\frac{\mu_J}{b v_\infty^2}\right).
 \]
 
-Equivalently, hyperbolic eccentricity \(e=1+b^2v_\infty^4/\mu_J^2\) under a square root, i.e.
+Equivalently, the hyperbolic eccentricity is
 \(e=\sqrt{1+(b v_\infty^2/\mu_J)^2}\), and \(\delta=2\arcsin(1/e)\).
 
 At closest approach radius \(r_p\),
@@ -110,7 +110,7 @@ and
 
 For a simple free coast, \(\Phi_{rv}\approx T I\). Around Jupiter, the flyby can make this matrix highly anisotropic and nonlinear.
 
-**Do not confuse** thruster minimum impulse bit, commanded \(\Delta v\), execution repeatability, knowledge of executed \(\Delta v\), pointing error, B-plane error, or residual post-correction velocity covariance. A 1 m/s maneuver with 0.1% execution error leaves a nominal 1 mm/s velocity error, which would drift ~21 AU in 100 kyr if not measured and corrected.
+**Do not confuse** thruster minimum impulse bit, commanded \(\Delta v\), execution repeatability, knowledge of executed \(\Delta v\), pointing error, B-plane error, or residual post-correction velocity covariance. A 1 m/s maneuver with 0.1% execution error leaves a nominal 1 mm/s velocity error, which would drift ~0.021 AU in 100 kyr if not measured and corrected.
 
 ### 5.1 Velocity error versus quiet-coast miss distance
 
@@ -118,19 +118,19 @@ Assume exactly 100,000 Julian years, linear free coast, and no target-state erro
 
 | Allowed transverse miss | Max residual transverse velocity error |
 |---|---:|
-| 1 AU | 0.0474 mm/s |
-| 10 AU | 0.474 mm/s |
-| 100 AU | 4.74 mm/s |
-| 1,000 AU | 47.4 mm/s |
-| 10,000 AU | 0.474 m/s |
+| 1 AU | 47.4 mm/s |
+| 10 AU | 0.474 m/s |
+| 100 AU | 4.74 m/s |
+| 1,000 AU | 47.4 m/s |
+| 10,000 AU | 474 m/s |
 
-Equivalently, **1 mm/s** residual error yields ~21.1 AU drift over 100 kyr; **1 cm/s** yields ~211 AU; **1 m/s** yields ~21,100 AU.
+Equivalently, **1 mm/s** residual error yields ~0.0211 AU drift over 100 kyr; **1 cm/s** yields ~0.211 AU; **1 m/s** yields ~21.1 AU.
 
 The tolerance scales inversely with flight time. A 400 kyr coast demands four times tighter residual transverse velocity knowledge/control for the same miss radius.
 
 ### 5.2 Precision in timing
 
-A velocity of 10 km/s moves ~0.0021 AU per 8.7 hours, and ~0.21 AU per year. An error in departure/encounter epoch shifts arrival position, but the actual effect must account for star motion, target approach geometry, and coupled orbital state. Timing is not interchangeable with transverse velocity accuracy.
+A velocity of 10 km/s moves ~0.0021 AU per 8.7 hours, and ~2.11 AU per year. An error in departure/encounter epoch shifts arrival position, but the actual effect must account for star motion, target approach geometry, and coupled orbital state. Timing is not interchangeable with transverse velocity accuracy.
 
 ### 5.3 Practical correction architecture
 
@@ -146,9 +146,9 @@ Gaia EDR3 documents typical proper-motion uncertainties of ~0.02–0.03 mas/year
 \sigma_{v_t}[\mathrm{km/s}]=4.74047\,d[\mathrm{pc}]\,\sigma_\mu[\mathrm{arcsec/yr}].
 \]
 
-This is one component of a correlated 6D uncertainty model. At \(d=1.3\) pc and \(\sigma_\mu=0.03\) mas/year, the formal proper-motion-only transverse velocity uncertainty is ~0.185 m/s, corresponding to ~3,900 AU of linear drift in 100 kyr. **Illustrative only**: not a target-specific Gaia measurement, and not a complete predicted star-position uncertainty. Parallax, radial velocity, acceleration, binarity, and Galactic potential matter.
+This is one component of a correlated 6D uncertainty model. At \(d=1.3\) pc and \(\sigma_\mu=0.03\) mas/year, the formal proper-motion-only transverse velocity uncertainty is ~0.185 m/s, corresponding to ~3.90 AU of linear drift in 100 kyr. **Illustrative only**: not a target-specific Gaia measurement, and not a complete predicted star-position uncertainty. Parallax, radial velocity, acceleration, binarity, and Galactic potential matter.
 
-For an illustrative target-state transverse-velocity uncertainty of 1 m/s, the 100 kyr drift is ~21,100 AU; for 0.01 m/s, ~211 AU. Better spacecraft burn precision cannot compensate for an unknown target position.
+For an illustrative target-state transverse-velocity uncertainty of 1 m/s, the 100 kyr drift is ~21.1 AU; for 0.01 m/s, ~0.211 AU. Better spacecraft burn precision cannot compensate for an unknown target position.
 
 A proper analysis should propagate the full Gaia covariance, available spectroscopic radial velocities, known companions, and a Galactic gravitational model; report 2D/3D encounter probability distributions, not only a nominal miss distance.
 
